@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/showCardsFragment">
+
+    <fragment
+        android:id="@+id/showCardsFragment"
+        android:name="com.jordan.passportcard.presentation.showcards.ShowCardsFragment"
+        android:label="showCardsFragment"
+        tools:layout="@layout/fragment_show_cards">
+
+        <action
+            android:id="@+id/action_showCardsFragment_to_addCardFragment"
+            app:destination="@id/addCardsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addCardsFragment"
+        android:name="com.jordan.passportcard.presentation.addcards.AddCardsFragment"
+        android:label="addCardsFragment"
+        tools:layout="@layout/fragment_add_cards" />
+
+</navigation>

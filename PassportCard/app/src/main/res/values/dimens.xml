@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="title_size">30sp</dimen>
+    <dimen name="size_btn_close">50dp</dimen>
+    <dimen name="size_tv_cards">10sp</dimen>
+</resources>
